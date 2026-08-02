@@ -1,0 +1,9 @@
+# Yana
+
+> Yana is an AI-powered emotional companion app helping millions of Spanish and English speakers reflect on their feelings and build daily emotional wellbeing.
+
+## Pages
+
+- [Home](/): A new chapter of Yana is coming. Download the current app and learn about what's next.
+- [Terms & Conditions](/terms): Terms and Conditions of Use for the Yana platform.
+- [Privacy Notice](/privacy): How Yana App, S.A.P.I. de C.V. collects, uses, and protects personal data.

@@ -1,7 +1,23 @@
 aid: yana
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yana.png
 name: Yana
-description: Yana is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Yana is an AI-powered emotional companion app (published by Yana App,
+  S.A.P.I. de C.V., a 500 Global portfolio company) that gives millions of Spanish
+  and English speakers a private space to talk through their feelings, reflect, and
+  build daily emotional wellbeing. The product ships as consumer iOS and Android
+  apps rather than a public API, and the company is currently rebuilding toward a
+  new version of the companion.
 url: https://raw.githubusercontent.com/api-evangelist/yana/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +25,22 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Mental Health
+- Emotional Wellness
+- AI Companion
+- Chatbot
+- Mobile Apps
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,13 @@ maintainers:
 common:
 - type: Website
   url: https://yana.ai
+- type: LLMsTxt
+  url: llms/yana-llms.txt
+- type: DomainSecurity
+  url: security/yana-domain-security.yml
+- type: TermsOfService
+  url: https://yana.ai/terms
+- type: PrivacyPolicy
+  url: https://yana.ai/privacy
+- type: Support
+  url: https://yana.ai/contact

@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+description: >-
+  Results of probing the /.well-known/ discovery surface for the only host
+  Yana publishes (https://yana.ai — the company is a consumer mobile app with
+  no api./docs./developer. subdomains; those hosts do not resolve). Status is
+  the HTTP code observed at fetch time. No well-known documents were found;
+  the site does publish /llms.txt (saved at llms/yana-llms.txt).
+hosts:
+  - host: https://yana.ai
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
